@@ -1,0 +1,47 @@
+<mat-toolbar color="primary">
+    Contact
+</mat-toolbar>
+
+<div class="container">
+  <mat-card class="matCard">
+    <div class="example-container">
+
+          <!--- Email Block --->
+          <mat-form-field class="emailBlock">
+              <input matInput type="text"
+              id="inputEmail"
+              placeholder="Email">
+          </mat-form-field><br>
+          
+          <!--- Password Block --->
+          <mat-form-field>
+              <input matInput type="password"
+                id="inputPassword"
+                placeholder="Password">
+          </mat-form-field><br>
+
+          <mat-form-field>
+              <input matInput type="password"
+                id="confirmPassword"
+                placeholder="Confirm password">
+          </mat-form-field><br>
+
+          <!--- Years Block --->
+          <div class="form-group checkbox">
+              <mat-checkbox color="primary">
+                Confirm that you are 18 years of age or older
+              </mat-checkbox>
+          </div>
+
+        <!--- Buttons Block --->
+          <div class="button form-group">
+              <button mat-raised-button type="submit" class="btn btn-primary" color="primary">
+                Submit
+              </button>
+              <button mat-raised-button type="reset" class="btn btn-default">
+                Cancel
+              </button>
+          </div>
+    </div>         
+  </mat-card>
+</div>      

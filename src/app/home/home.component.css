@@ -1,0 +1,21 @@
+.container {
+    margin: 20px auto;
+    width: 400px;
+}
+.matCard {
+    background: #F3F3F3;
+}
+.button {
+    margin: 15px 0 10px 0;
+}
+.btn {
+    margin-right: 8px;
+}
+.inputForm {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #6F6F6F;
+    margin: 0 8px;
+}
